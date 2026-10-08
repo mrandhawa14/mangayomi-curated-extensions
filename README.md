@@ -35,7 +35,7 @@ The index retains each extension's upstream `sourceCodeUrl`. This avoids republi
 
 Adult sources remain marked with the upstream `isNsfw` value so Mangayomi can handle them appropriately.
 
-The current selection overrides SFlix, Anime-Sama, FFZY, AniWave, and AniKoto with tested compatibility fixes while their upstream contributions are being reviewed. CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired protected-HLS app contribution. The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
+The current selection overrides SFlix, Anime-Sama, FFZY, AniWave, and AniKoto with tested compatibility fixes while their upstream contributions are being reviewed. CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired [protected-HLS app contribution](https://github.com/kodjodevf/mangayomi/pull/1040). The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
 
 ## Upstream projects
 

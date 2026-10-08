@@ -20,7 +20,7 @@
       "appMinVerReq": "0.9.9",
       "additionalParams": "",
       "sourceCodeLanguage": 1,
-      "notes": "Requires the protected HLS proxy included in the pending Mangayomi app contribution"
+      "notes": "Requires Mangayomi 0.9.9+ with the protected HLS proxy from app PR #1040"
     }
   ],
   "exclude": [
