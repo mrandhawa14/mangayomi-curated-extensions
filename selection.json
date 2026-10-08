@@ -3,6 +3,11 @@
     {
       "name": "Playback Diagnostic",
       "reason": "Developer diagnostic entry, not a user-facing streaming source"
+    },
+    {
+      "name": "KickAssAnime",
+      "lang": "all",
+      "reason": "Defaults to a localhost:8080 Cloudflare proxy that is not available on iPhone"
     }
   ],
   "overrides": [
@@ -11,10 +16,10 @@
       "lang": "en",
       "set": {
         "baseUrl": "https://ssflix.pro/home",
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/46f15750cd9b6742efc12f9066183d09d6bd64ad/dart/anime/multisrc/dopeflix/dopeflix.dart",
-        "version": "0.0.8",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/1ef85f670b8800c2b1ee1f3b619a16ec67deeef5/dart/anime/multisrc/dopeflix/dopeflix.dart",
+        "version": "0.0.9",
         "hasCloudflare": true,
-        "notes": "Use ssflix.pro domain options and current provider APIs"
+        "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI compatibility"
       }
     }
   ],

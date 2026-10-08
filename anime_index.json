@@ -109,28 +109,6 @@
     "notes": ""
   },
   {
-    "name": "KickAssAnime",
-    "id": 1067415392,
-    "baseUrl": "https://kaa.lt",
-    "lang": "all",
-    "typeSource": "multi",
-    "iconUrl": "https://www.google.com/s2/favicons?sz=256&domain=https://kaa.lt",
-    "dateFormat": "",
-    "dateFormatLocale": "",
-    "isNsfw": false,
-    "hasCloudflare": true,
-    "sourceCodeUrl": "https://raw.githubusercontent.com/tympanicblock61/mangayomi-extensions/main/javascript/anime/src/all/kaa.js",
-    "apiUrl": "https://kaa.lt/api",
-    "version": "0.0.6",
-    "isManga": false,
-    "itemType": 1,
-    "isFullData": false,
-    "appMinVerReq": "0.5.0",
-    "additionalParams": "",
-    "sourceCodeLanguage": 1,
-    "notes": ""
-  },
-  {
     "name": "KissKH",
     "id": 4029425029,
     "baseUrl": "https://kisskh.ovh",
@@ -862,16 +840,16 @@
     "dateFormatLocale": "",
     "isNsfw": false,
     "hasCloudflare": true,
-    "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/46f15750cd9b6742efc12f9066183d09d6bd64ad/dart/anime/multisrc/dopeflix/dopeflix.dart",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/1ef85f670b8800c2b1ee1f3b619a16ec67deeef5/dart/anime/multisrc/dopeflix/dopeflix.dart",
     "apiUrl": "",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "isManga": false,
     "itemType": 1,
     "isFullData": false,
     "appMinVerReq": "0.5.0",
     "additionalParams": "",
     "sourceCodeLanguage": 0,
-    "notes": "Use ssflix.pro domain options and current provider APIs"
+    "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI compatibility"
   },
   {
     "name": "SubsPlease",

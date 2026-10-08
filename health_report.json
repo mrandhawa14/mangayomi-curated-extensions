@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-08T07:51:04.862786+00:00",
+  "checkedAt": "2026-10-08T08:05:50.394677+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
     "entriesSeen": 99,
-    "entriesSelected": 59,
-    "entriesRejected": 40
+    "entriesSelected": 58,
+    "entriesRejected": 41
   },
   "feeds": [
     {
@@ -93,17 +93,6 @@
       "baseUrl": "https://torrentio.strem.fun",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/debridindex.js",
       "siteStatus": 206,
-      "sourceStatus": 206
-    },
-    {
-      "id": 1067415392,
-      "name": "KickAssAnime",
-      "lang": "all",
-      "version": "0.0.6",
-      "origin": "tympanicblock61/mangayomi-extensions",
-      "baseUrl": "https://kaa.lt",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/tympanicblock61/mangayomi-extensions/main/javascript/anime/src/all/kaa.js",
-      "siteStatus": 200,
       "sourceStatus": 206
     },
     {
@@ -473,10 +462,10 @@
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.8",
+      "version": "0.0.9",
       "origin": "m2k3a/mangayomi-extensions",
       "baseUrl": "https://ssflix.pro/home",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/46f15750cd9b6742efc12f9066183d09d6bd64ad/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/1ef85f670b8800c2b1ee1f3b619a16ec67deeef5/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 206,
       "sourceStatus": 206
     },
@@ -691,6 +680,18 @@
     }
   ],
   "rejected": [
+    {
+      "id": 1067415392,
+      "name": "KickAssAnime",
+      "lang": "all",
+      "version": "0.0.6",
+      "origin": "tympanicblock61/mangayomi-extensions",
+      "baseUrl": "https://kaa.lt",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/tympanicblock61/mangayomi-extensions/main/javascript/anime/src/all/kaa.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "reason": "Defaults to a localhost:8080 Cloudflare proxy that is not available on iPhone"
+    },
     {
       "id": 918273645,
       "name": "Playback Diagnostic",
