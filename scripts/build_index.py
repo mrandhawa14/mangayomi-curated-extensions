@@ -19,6 +19,10 @@ from urllib.request import Request, urlopen
 
 USER_AGENT = "MangayomiCuratedIndex/1.0 (+https://github.com/mrandhawa14/mangayomi-curated-extensions)"
 REQUIRED_FIELDS = ("id", "name", "baseUrl", "lang", "version", "sourceCodeUrl")
+STOPPED_SITE_MARKERS = (
+    "website has been stopped",
+    "site has been stopped by the administrator",
+)
 
 
 @dataclass(frozen=True)
@@ -86,9 +90,12 @@ def source_compatibility_warnings(text: str) -> tuple[str, ...]:
 
 def check_site(url: str, timeout: float, has_cloudflare: bool) -> CheckResult:
     try:
-        status, _ = fetch_bytes(url, timeout, limit=4096)
+        status, body = fetch_bytes(url, timeout, limit=4096)
     except (URLError, TimeoutError, OSError) as error:
         return CheckResult(False, None, str(error))
+    text = body.decode("utf-8", errors="replace").casefold()
+    if any(marker in text for marker in STOPPED_SITE_MARKERS):
+        return CheckResult(False, status, "site reports that it has been stopped")
     if 200 <= status < 400:
         return CheckResult(True, status, "site responded")
     if status == 403 and has_cloudflare:
@@ -218,7 +225,8 @@ def build(
         if not reason and (not source_check or not source_check.ok):
             reason = "extension source file did not load"
         if not reason and not override and (not site_check or not site_check.ok):
-            reason = "website did not respond successfully"
+            detail = site_check.detail if site_check else "no site check result"
+            reason = f"website unavailable: {detail}"
 
         audit = {
             "id": entry.get("id"),

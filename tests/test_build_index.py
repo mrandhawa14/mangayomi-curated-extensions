@@ -72,6 +72,21 @@ class BuildIndexTests(unittest.TestCase):
             (),
         )
 
+    def test_shutdown_placeholder_is_not_treated_as_a_healthy_site(self):
+        original_fetch_bytes = build_index.fetch_bytes
+        build_index.fetch_bytes = lambda *_args, **_kwargs: (
+            200,
+            b"<html><body>The website has been stopped by the administrator</body></html>",
+        )
+        try:
+            result = build_index.check_site("https://example.com", 1, False)
+        finally:
+            build_index.fetch_bytes = original_fetch_bytes
+
+        self.assertFalse(result.ok)
+        self.assertEqual(result.status, 200)
+        self.assertIn("stopped", result.detail)
+
 
 if __name__ == "__main__":
     unittest.main()

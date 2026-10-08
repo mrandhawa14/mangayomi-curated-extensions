@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-08T09:45:29.106927+00:00",
+  "checkedAt": "2026-10-08T10:33:49.050385+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
     "entriesSeen": 100,
-    "entriesSelected": 63,
-    "entriesRejected": 37,
+    "entriesSelected": 62,
+    "entriesRejected": 38,
     "compatibilityWarnings": 2
   },
   "feeds": [
@@ -49,18 +49,6 @@
       "origin": "gato404/kegareta-sauces",
       "baseUrl": "https://123av.com/en",
       "sourceCodeUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/javascript/anime/src/all/123av.js",
-      "siteStatus": 200,
-      "sourceStatus": 206,
-      "compatibilityWarnings": []
-    },
-    {
-      "id": 829457287,
-      "name": "Anibd.App",
-      "lang": "all",
-      "version": "1.0.3",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://anibd.app",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anibd.app.js",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -871,17 +859,17 @@
       "reason": "lower-priority duplicate"
     },
     {
-      "id": 957331416,
-      "name": "9AnimeTv",
-      "lang": "en",
-      "version": "0.0.55",
+      "id": 967317255,
+      "name": "天空资源网",
+      "lang": "zh",
+      "version": "0.0.2",
       "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://9animetv.to",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/nineanimetv/nineanimetv.dart",
+      "baseUrl": "https://tiankongzy.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/tiankongzy.js",
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 61] Connection refused>"
     },
     {
       "id": 525728745,
@@ -894,85 +882,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 333564558,
-      "name": "Anime4Up",
-      "lang": "ar",
-      "version": "0.0.6",
-      "origin": "9vsv6/mangayomi-ar-extensions",
-      "baseUrl": "https://w1.anime4up.rest",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/anime4up.js",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 32554550,
-      "name": "AnimeFLV",
-      "lang": "es",
-      "version": "0.0.1",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www3.animeflv.net",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animeflv.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 750391210,
-      "name": "AnimeFénix",
-      "lang": "es",
-      "version": "0.1.13",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www3.animefenix.tv",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animefenix.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 802700084,
-      "name": "AnimeOnline.Ninja",
-      "lang": "es",
-      "version": "0.0.35",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://ww3.animeonline.ninja",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 534387145,
-      "name": "AnimePahe",
-      "lang": "en",
-      "version": "0.0.94",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www.animepahe.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/animepahe/animepahe.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 492689523,
-      "name": "AnimeZZ",
-      "lang": "en",
-      "version": "1.1.1",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://animeyy.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animez.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 2115224012,
@@ -985,7 +895,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 536971840,
@@ -998,7 +908,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 640189912,
@@ -1011,20 +921,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 892266880,
-      "name": "Filma24",
-      "lang": "sq",
-      "version": "0.0.5",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www.filma24.band",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/sq/filma24/filma24.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 1061885186,
@@ -1037,59 +934,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 814067600,
-      "name": "HiAnime",
-      "lang": "en",
-      "version": "0.2.15",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://hianime.to",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 961999573,
-      "name": "Kaido.to",
-      "lang": "en",
-      "version": "0.2.15",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://kaido.to",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 3570935492,
-      "name": "Moviesda",
-      "lang": "ta",
-      "version": "1.2.2",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://moviesda14.net",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/ta/moviesda.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 228390212,
-      "name": "NimeGami",
-      "lang": "id",
-      "version": "0.0.6",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://nimegami.id",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 354763978,
@@ -1102,46 +947,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 857966631,
-      "name": "OtakuDesu",
-      "lang": "id",
-      "version": "0.0.6",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://otakudesu.cloud",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/otakudesu/otakudesu.dart",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 828939690,
-      "name": "OtakuFr",
-      "lang": "fr",
-      "version": "0.1.0",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://otakufr.cc",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/otakufr/otakufr.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 4254616130,
-      "name": "Senshi",
-      "lang": "all",
-      "version": "1.0.1",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://senshi.live",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/senshi.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 178264452,
@@ -1154,20 +960,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 398530136,
-      "name": "Sudatchi",
-      "lang": "en",
-      "version": "2.0.1",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://sudatchi.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/sudatchi.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 412887556,
@@ -1180,46 +973,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 1053870596,
-      "name": "Vumeto",
-      "lang": "en",
-      "version": "0.0.55",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://vumeto.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/vumeto/vumeto.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 1054910447,
-      "name": "Wiflix",
-      "lang": "fr",
-      "version": "0.0.65",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://wiflix-hd.vip",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 585912766,
-      "name": "diziWatch",
-      "lang": "tr",
-      "version": "0.0.15",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://diziwatch.net",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/tr/diziwatch/diziwatch.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 400189518,
@@ -1232,20 +986,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 967317255,
-      "name": "天空资源网",
-      "lang": "zh",
-      "version": "0.0.2",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://tiankongzy.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/tiankongzy.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 143878436,
@@ -1260,20 +1001,7 @@
       "compatibilityWarnings": [
         "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
       ],
-      "reason": "website did not respond successfully"
-    },
-    {
-      "id": 14810567,
-      "name": "玩偶哥哥",
-      "lang": "zh",
-      "version": "0.0.3",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www.wogg.one",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/wogg.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
       "id": 11129663,
@@ -1286,7 +1014,280 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
-      "reason": "website did not respond successfully"
+      "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
+    },
+    {
+      "id": 1054910447,
+      "name": "Wiflix",
+      "lang": "fr",
+      "version": "0.0.65",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://wiflix-hd.vip",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'wiflix-hd.vip'. (_ssl.c:1000)>"
+    },
+    {
+      "id": 1053870596,
+      "name": "Vumeto",
+      "lang": "en",
+      "version": "0.0.55",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://vumeto.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/vumeto/vumeto.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1000)>"
+    },
+    {
+      "id": 492689523,
+      "name": "AnimeZZ",
+      "lang": "en",
+      "version": "1.1.1",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://animeyy.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animez.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "id": 3570935492,
+      "name": "Moviesda",
+      "lang": "ta",
+      "version": "1.2.2",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://moviesda14.net",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/ta/moviesda.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "id": 14810567,
+      "name": "玩偶哥哥",
+      "lang": "zh",
+      "version": "0.0.3",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www.wogg.one",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/wogg.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
+      "id": 4254616130,
+      "name": "Senshi",
+      "lang": "all",
+      "version": "1.0.1",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://senshi.live",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/senshi.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>"
+    },
+    {
+      "id": 750391210,
+      "name": "AnimeFénix",
+      "lang": "es",
+      "version": "0.1.13",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www3.animefenix.tv",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animefenix.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error timed out>"
+    },
+    {
+      "id": 892266880,
+      "name": "Filma24",
+      "lang": "sq",
+      "version": "0.0.5",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www.filma24.band",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/sq/filma24/filma24.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error timed out>"
+    },
+    {
+      "id": 585912766,
+      "name": "diziWatch",
+      "lang": "tr",
+      "version": "0.0.15",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://diziwatch.net",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/tr/diziwatch/diziwatch.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error timed out>"
+    },
+    {
+      "id": 333564558,
+      "name": "Anime4Up",
+      "lang": "ar",
+      "version": "0.0.6",
+      "origin": "9vsv6/mangayomi-ar-extensions",
+      "baseUrl": "https://w1.anime4up.rest",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/anime4up.js",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: HTTP 403"
+    },
+    {
+      "id": 802700084,
+      "name": "AnimeOnline.Ninja",
+      "lang": "es",
+      "version": "0.0.35",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://ww3.animeonline.ninja",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: HTTP 403"
+    },
+    {
+      "id": 857966631,
+      "name": "OtakuDesu",
+      "lang": "id",
+      "version": "0.0.6",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://otakudesu.cloud",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/otakudesu/otakudesu.dart",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: HTTP 403"
+    },
+    {
+      "id": 957331416,
+      "name": "9AnimeTv",
+      "lang": "en",
+      "version": "0.0.55",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://9animetv.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/nineanimetv/nineanimetv.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 32554550,
+      "name": "AnimeFLV",
+      "lang": "es",
+      "version": "0.0.1",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www3.animeflv.net",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animeflv.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 534387145,
+      "name": "AnimePahe",
+      "lang": "en",
+      "version": "0.0.94",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www.animepahe.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/animepahe/animepahe.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 814067600,
+      "name": "HiAnime",
+      "lang": "en",
+      "version": "0.2.15",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://hianime.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 961999573,
+      "name": "Kaido.to",
+      "lang": "en",
+      "version": "0.2.15",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://kaido.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 228390212,
+      "name": "NimeGami",
+      "lang": "id",
+      "version": "0.0.6",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://nimegami.id",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 828939690,
+      "name": "OtakuFr",
+      "lang": "fr",
+      "version": "0.1.0",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://otakufr.cc",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/otakufr/otakufr.dart",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 398530136,
+      "name": "Sudatchi",
+      "lang": "en",
+      "version": "2.0.1",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://sudatchi.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/sudatchi.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: The read operation timed out"
+    },
+    {
+      "id": 829457287,
+      "name": "Anibd.App",
+      "lang": "all",
+      "version": "1.0.3",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://anibd.app",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anibd.app.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: site reports that it has been stopped"
     }
   ]
 }
