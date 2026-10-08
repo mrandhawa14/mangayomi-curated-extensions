@@ -19,6 +19,8 @@ Each weekly build verifies that:
 - the source website responds, including a declared Cloudflare challenge;
 - inactive, malformed, manually excluded, and lower-priority duplicate entries are omitted.
 
+The automated refresh keeps the last good index if an upstream feed is unavailable or if the selection unexpectedly falls below 40 entries.
+
 These checks cannot prove that every search result or video host works. Mangayomi playback tests are still the final verification. See [`health_report.json`](health_report.json) for the latest result and the reason each omitted source was rejected.
 
 The index retains each extension's upstream `sourceCodeUrl`. This avoids republishing third-party code without permission and lets upstream maintainers remain the source of updates.

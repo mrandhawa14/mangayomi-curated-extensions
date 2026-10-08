@@ -19,7 +19,7 @@ jobs:
       - name: Run tests
         run: python -m unittest discover -s tests -v
       - name: Validate and rebuild index
-        run: python scripts/build_index.py
+        run: python scripts/build_index.py --minimum-selected 40
       - name: Commit changes
         run: |
           if git diff --quiet; then

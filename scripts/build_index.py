@@ -133,6 +133,7 @@ def build(
     report_path: Path,
     timeout: float,
     workers: int,
+    minimum_selected: int,
 ) -> dict[str, Any]:
     config = json.loads(config_path.read_text(encoding="utf-8"))
     selection = json.loads(selection_path.read_text(encoding="utf-8"))
@@ -158,6 +159,10 @@ def build(
             entry["_origin"] = source["name"]
             entry["_priority"] = priority
             entries.append(entry)
+
+    loaded_feeds = sum(1 for feed in feeds if feed["ok"])
+    if loaded_feeds != len(config["sources"]):
+        raise RuntimeError(f"only {loaded_feeds} of {len(config['sources'])} upstream feeds loaded")
 
     source_urls = sorted({str(entry.get("sourceCodeUrl", "")) for entry in entries if entry.get("sourceCodeUrl")})
     site_inputs = {
@@ -239,6 +244,11 @@ def build(
     rejected.extend(duplicate_rejections)
     rejected.sort(key=lambda entry: (str(entry.get("reason", "")), str(entry.get("name", ""))))
 
+    if len(selected) < minimum_selected:
+        raise RuntimeError(
+            f"selected source count {len(selected)} is below safety minimum {minimum_selected}"
+        )
+
     output_path.write_text(json.dumps(selected, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     report = {
         "checkedAt": datetime.now(timezone.utc).isoformat(),
@@ -274,6 +284,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--report", type=Path, default=root / "health_report.json")
     parser.add_argument("--timeout", type=float, default=15.0)
     parser.add_argument("--workers", type=int, default=16)
+    parser.add_argument("--minimum-selected", type=int, default=1)
     return parser.parse_args()
 
 
@@ -287,8 +298,9 @@ def main() -> int:
             args.report,
             args.timeout,
             args.workers,
+            args.minimum_selected,
         )
-    except (KeyError, ValueError, OSError, json.JSONDecodeError) as error:
+    except (KeyError, ValueError, RuntimeError, OSError, json.JSONDecodeError) as error:
         print(f"Build failed: {error}", file=sys.stderr)
         return 1
     print(json.dumps(report["summary"], indent=2))
