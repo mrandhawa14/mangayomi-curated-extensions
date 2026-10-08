@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    {
+      "name": "Playback Diagnostic",
+      "reason": "Developer diagnostic entry, not a user-facing streaming source"
+    }
+  ],
+  "overrides": [
+    {
+      "name": "SFlix",
+      "lang": "en",
+      "set": {
+        "baseUrl": "https://ssflix.pro/home",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/46f15750cd9b6742efc12f9066183d09d6bd64ad/dart/anime/multisrc/dopeflix/dopeflix.dart",
+        "version": "0.0.8",
+        "hasCloudflare": true,
+        "notes": "Use ssflix.pro domain options and current provider APIs"
+      }
+    }
+  ],
+  "allowUnreachable": []
+}

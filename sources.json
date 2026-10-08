@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "name": "9vsv6/mangayomi-ar-extensions",
+      "indexUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/refs/heads/main/anime_index.json"
+    },
+    {
+      "name": "gato404/kegareta-sauces",
+      "indexUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/refs/heads/main/anime_index.json"
+    },
+    {
+      "name": "m2k3a/mangayomi-extensions",
+      "indexUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/refs/heads/main/anime_index.json"
+    },
+    {
+      "name": "Mallyd11/mangayomi-anime-extensions",
+      "indexUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/main/anime_index.json"
+    },
+    {
+      "name": "Swakshan/mangayomi-swak-extensions",
+      "indexUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/anime_index.json"
+    },
+    {
+      "name": "tympanicblock61/mangayomi-extensions",
+      "indexUrl": "https://raw.githubusercontent.com/tympanicblock61/mangayomi-extensions/main/anime_index.json"
+    }
+  ]
+}
