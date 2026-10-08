@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T09:35:25.741069+00:00",
+  "checkedAt": "2026-10-08T09:38:36.306425+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
@@ -297,10 +297,10 @@
       "id": 1356478902,
       "name": "AniKoto",
       "lang": "en",
-      "version": "0.4.21",
+      "version": "0.4.22",
       "origin": "Mallyd11/mangayomi-anime-extensions",
       "baseUrl": "https://anikototv.to",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anikoto.js",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/8dd98cb1f70b7b4f75759a51a3e1904fcaacd003/javascript/anime/src/en/anikoto.js",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": [
@@ -383,10 +383,10 @@
       "id": -367725331,
       "name": "AniWave",
       "lang": "en",
-      "version": "0.2.3",
+      "version": "0.2.4",
       "origin": "Mallyd11/mangayomi-anime-extensions",
       "baseUrl": "https://aniwaves.ru",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/aniwave.js",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/8dd98cb1f70b7b4f75759a51a3e1904fcaacd003/javascript/anime/src/en/aniwave.js",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -839,7 +839,7 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": null,
+      "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
       "reason": "extension source file did not load"
@@ -852,7 +852,7 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": null,
+      "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
       "reason": "extension source file did not load"

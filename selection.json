@@ -36,6 +36,24 @@
   ],
   "overrides": [
     {
+      "name": "AniWave",
+      "lang": "en",
+      "set": {
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/8dd98cb1f70b7b4f75759a51a3e1904fcaacd003/javascript/anime/src/en/aniwave.js",
+        "version": "0.2.4",
+        "notes": "Use the repaired MIME-hinted HLS URL on Mangayomi 0.8.9 and current releases"
+      }
+    },
+    {
+      "name": "AniKoto",
+      "lang": "en",
+      "set": {
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/8dd98cb1f70b7b4f75759a51a3e1904fcaacd003/javascript/anime/src/en/anikoto.js",
+        "version": "0.4.22",
+        "notes": "Keep the optional repaired proxy entry consistent on Mangayomi 0.8.9 and current releases"
+      }
+    },
+    {
       "name": "Anime-Sama",
       "lang": "fr",
       "set": {
