@@ -16,10 +16,10 @@
       "lang": "en",
       "set": {
         "baseUrl": "https://ssflix.pro/home",
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/1ef85f670b8800c2b1ee1f3b619a16ec67deeef5/dart/anime/multisrc/dopeflix/dopeflix.dart",
-        "version": "0.0.9",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
+        "version": "0.0.10",
         "hasCloudflare": true,
-        "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI compatibility"
+        "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI and playback compatibility"
       }
     }
   ],

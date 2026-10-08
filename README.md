@@ -34,7 +34,7 @@ The index retains each extension's upstream `sourceCodeUrl`. This avoids republi
 
 Adult sources remain marked with the upstream `isNsfw` value so Mangayomi can handle them appropriately.
 
-The current selection overrides SFlix with the tested `ssflix.pro` provider fix, including compatibility with Mangayomi 0.8.9, while the upstream contribution is being reviewed. The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
+The current selection overrides SFlix with the tested `ssflix.pro` provider fix, including catalogue and HLS playback compatibility with Mangayomi 0.8.9, while the upstream contribution is being reviewed. The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
 
 ## Upstream projects
 

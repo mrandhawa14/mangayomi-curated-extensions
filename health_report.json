@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-08T08:05:50.394677+00:00",
+  "checkedAt": "2026-10-08T08:18:35.212294+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
@@ -462,10 +462,10 @@
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.9",
+      "version": "0.0.10",
       "origin": "m2k3a/mangayomi-extensions",
       "baseUrl": "https://ssflix.pro/home",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/1ef85f670b8800c2b1ee1f3b619a16ec67deeef5/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 206,
       "sourceStatus": 206
     },
