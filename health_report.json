@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-08T10:33:49.050385+00:00",
+  "checkedAt": "2026-10-08T18:16:46.143416+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
-    "entriesSeen": 100,
-    "entriesSelected": 62,
-    "entriesRejected": 38,
-    "compatibilityWarnings": 2
+    "entriesSeen": 102,
+    "entriesSelected": 65,
+    "entriesRejected": 37,
+    "compatibilityWarnings": 4
   },
   "feeds": [
     {
@@ -270,6 +270,20 @@
       "compatibilityWarnings": []
     },
     {
+      "id": 878498226,
+      "name": "Anichi",
+      "lang": "en",
+      "version": "0.1.0",
+      "origin": "Curated addition",
+      "baseUrl": "https://anichi.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/cdfe4ff95dd5935955ddbb96f7e43d026e4c6043/javascript/anime/src/en/anikoto.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ]
+    },
+    {
       "id": 543219876,
       "name": "Anidap",
       "lang": "en",
@@ -318,6 +332,20 @@
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
+    },
+    {
+      "id": 232158530,
+      "name": "AnimeKai (Unoriginal)",
+      "lang": "en",
+      "version": "0.1.0",
+      "origin": "Curated addition",
+      "baseUrl": "https://animekaitv.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/cdfe4ff95dd5935955ddbb96f7e43d026e4c6043/javascript/anime/src/en/anikoto.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ]
     },
     {
       "id": 419768715,
@@ -479,7 +507,7 @@
       "id": 631942785,
       "name": "ReAnime",
       "lang": "en",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "origin": "Mallyd11/mangayomi-anime-extensions",
       "baseUrl": "https://reanime.cz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/reanime.js",
@@ -491,7 +519,7 @@
       "id": 728461935,
       "name": "Senshi",
       "lang": "en",
-      "version": "0.5.0",
+      "version": "0.6.0",
       "origin": "Mallyd11/mangayomi-anime-extensions",
       "baseUrl": "https://senshi.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/senshi.js",
@@ -615,6 +643,18 @@
       "origin": "m2k3a/mangayomi-extensions",
       "baseUrl": "https://yomovies.boo",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/hi/yomovies/yomovies.dart",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 228390212,
+      "name": "NimeGami",
+      "lang": "id",
+      "version": "0.0.6",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://nimegami.id",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -1232,19 +1272,6 @@
       "origin": "m2k3a/mangayomi-extensions",
       "baseUrl": "https://kaido.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: The read operation timed out"
-    },
-    {
-      "id": 228390212,
-      "name": "NimeGami",
-      "lang": "id",
-      "version": "0.0.6",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://nimegami.id",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
