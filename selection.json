@@ -1,4 +1,28 @@
 {
+  "add": [
+    {
+      "name": "CineJoy",
+      "id": 890070321,
+      "baseUrl": "https://cinejoy.pk",
+      "lang": "en",
+      "typeSource": "single",
+      "iconUrl": "https://cinejoy.pk/favicon.ico",
+      "dateFormat": "",
+      "dateFormatLocale": "",
+      "isNsfw": false,
+      "hasCloudflare": false,
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/en/cinejoy.js",
+      "apiUrl": "https://api.wing.st",
+      "version": "0.1.0",
+      "isManga": false,
+      "itemType": 1,
+      "isFullData": false,
+      "appMinVerReq": "0.9.9",
+      "additionalParams": "",
+      "sourceCodeLanguage": 1,
+      "notes": "Requires the protected HLS proxy included in the pending Mangayomi app contribution"
+    }
+  ],
   "exclude": [
     {
       "name": "Playback Diagnostic",
@@ -11,6 +35,26 @@
     }
   ],
   "overrides": [
+    {
+      "name": "Anime-Sama",
+      "lang": "fr",
+      "set": {
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/dart/anime/src/fr/animesama/animesama.dart",
+        "version": "0.0.53",
+        "notes": "Avoid the Mangayomi 0.8.9 Uri.replace bridge cast failure"
+      }
+    },
+    {
+      "name": "非凡资源",
+      "lang": "zh",
+      "set": {
+        "baseUrl": "https://ffzy.tv",
+        "iconUrl": "https://ffzy.tv/template/default/img/favicon.png",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/zh/ffzy.js",
+        "version": "0.0.26",
+        "notes": "Use HTTPS endpoints so playback requests are not blocked by platform network security"
+      }
+    },
     {
       "name": "SFlix",
       "lang": "en",

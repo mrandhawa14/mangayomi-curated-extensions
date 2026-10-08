@@ -26,6 +26,7 @@ class CheckResult:
     ok: bool
     status: int | None
     detail: str
+    compatibility_warnings: tuple[str, ...] = ()
 
 
 def fetch_bytes(url: str, timeout: float, limit: int = 1_000_000) -> tuple[int, bytes]:
@@ -66,7 +67,21 @@ def check_source(url: str, timeout: float) -> CheckResult:
     looks_like_html = text.lower().startswith(("<!doctype html", "<html"))
     ok = status in (200, 206) and len(text) >= 20 and not looks_like_html
     detail = "source file loaded" if ok else "empty, missing, or HTML response"
-    return CheckResult(ok, status, detail)
+    return CheckResult(ok, status, detail, source_compatibility_warnings(text) if ok else ())
+
+
+def source_compatibility_warnings(text: str) -> tuple[str, ...]:
+    warnings: list[str] = []
+    code = re.sub(r"/\*.*?\*/|//[^\r\n]*", "", text, flags=re.DOTALL)
+    if re.search(r"\.replace\s*\(\s*queryParameters\s*:", code, flags=re.DOTALL):
+        warnings.append(
+            "Uses Uri.replace(queryParameters: ...), which fails with bridged maps in Mangayomi 0.8.9"
+        )
+    if re.search(r"https?://(?:localhost|127\.0\.0\.1|\[::1\])(?::\d+)?", text, flags=re.IGNORECASE):
+        warnings.append(
+            "References a loopback HTTP service; mobile users need that service on the same device"
+        )
+    return tuple(warnings)
 
 
 def check_site(url: str, timeout: float, has_cloudflare: bool) -> CheckResult:
@@ -82,7 +97,7 @@ def check_site(url: str, timeout: float, has_cloudflare: bool) -> CheckResult:
 
 
 def normalized_name(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "", value.casefold())
+    return "".join(character for character in value.casefold() if character.isalnum())
 
 
 def version_key(value: Any) -> tuple[int, ...]:
@@ -160,6 +175,13 @@ def build(
             entry["_priority"] = priority
             entries.append(entry)
 
+    for added in selection.get("add", []):
+        entry = dict(added)
+        apply_overrides(entry, overrides)
+        entry["_origin"] = "Curated addition"
+        entry["_priority"] = -1
+        entries.append(entry)
+
     loaded_feeds = sum(1 for feed in feeds if feed["ok"])
     if loaded_feeds != len(config["sources"]):
         raise RuntimeError(f"only {loaded_feeds} of {len(config['sources'])} upstream feeds loaded")
@@ -208,7 +230,14 @@ def build(
             "sourceCodeUrl": entry.get("sourceCodeUrl"),
             "siteStatus": site_check.status if site_check else None,
             "sourceStatus": source_check.status if source_check else None,
+            "compatibilityWarnings": list(source_check.compatibility_warnings)
+            if source_check
+            else [],
         }
+        if str(entry.get("baseUrl", "")).startswith("http://"):
+            audit["compatibilityWarnings"].append(
+                "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
+            )
         if reason:
             audit["reason"] = reason
             rejected.append(audit)
@@ -250,6 +279,15 @@ def build(
         )
 
     output_path.write_text(json.dumps(selected, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    selected_audits = [
+        next(
+            item["audit"]
+            for item in candidates
+            if item["entry"]["id"] == entry["id"]
+            and override_key(item["entry"]) == override_key(entry)
+        )
+        for entry in selected
+    ]
     report = {
         "checkedAt": datetime.now(timezone.utc).isoformat(),
         "summary": {
@@ -258,17 +296,12 @@ def build(
             "entriesSeen": len(entries),
             "entriesSelected": len(selected),
             "entriesRejected": len(rejected),
+            "compatibilityWarnings": sum(
+                len(item["compatibilityWarnings"]) for item in selected_audits
+            ),
         },
         "feeds": feeds,
-        "selected": [
-            next(
-                item["audit"]
-                for item in candidates
-                if item["entry"]["id"] == entry["id"]
-                and override_key(item["entry"]) == override_key(entry)
-            )
-            for entry in selected
-        ],
+        "selected": selected_audits,
         "rejected": rejected,
     }
     report_path.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

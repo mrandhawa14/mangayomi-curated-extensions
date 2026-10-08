@@ -19,6 +19,12 @@ class BuildIndexTests(unittest.TestCase):
     def test_normalized_name_ignores_spacing_and_case(self):
         self.assertEqual(build_index.normalized_name("Hi Anime"), build_index.normalized_name("hi-anime"))
 
+    def test_normalized_name_keeps_non_latin_names_distinct(self):
+        self.assertNotEqual(
+            build_index.normalized_name("非凡资源"),
+            build_index.normalized_name("华为吧资源"),
+        )
+
     def test_exclusion_can_target_a_language(self):
         entry = {"name": "Example", "lang": "en"}
         rules = [{"name": "example", "lang": "en", "reason": "test"}]
@@ -34,6 +40,37 @@ class BuildIndexTests(unittest.TestCase):
         rules = [{"name": "sflix", "lang": "en", "set": {"baseUrl": "https://new.example"}}]
         build_index.apply_overrides(entry, rules)
         self.assertEqual(entry["baseUrl"], "https://new.example")
+
+    def test_legacy_uri_bridge_pattern_is_reported(self):
+        source = '''
+        final uri = Uri.parse(baseUrl).replace(
+          queryParameters: <String, String>{"q": query},
+        );
+        '''
+        warnings = build_index.source_compatibility_warnings(source)
+        self.assertTrue(any("Mangayomi 0.8.9" in warning for warning in warnings))
+
+    def test_loopback_dependency_is_reported(self):
+        warnings = build_index.source_compatibility_warnings(
+            'const proxy = "http://localhost:8080";'
+        )
+        self.assertTrue(any("loopback" in warning for warning in warnings))
+
+    def test_normal_source_has_no_compatibility_warning(self):
+        self.assertEqual(
+            build_index.source_compatibility_warnings(
+                'const baseUrl = "https://example.com";'
+            ),
+            (),
+        )
+
+    def test_compatibility_examples_in_comments_are_ignored(self):
+        self.assertEqual(
+            build_index.source_compatibility_warnings(
+                "// Avoid Uri.replace(queryParameters: ...) on legacy apps"
+            ),
+            (),
+        )
 
 
 if __name__ == "__main__":

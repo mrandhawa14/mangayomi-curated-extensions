@@ -1,11 +1,12 @@
 {
-  "checkedAt": "2026-10-08T08:18:35.212294+00:00",
+  "checkedAt": "2026-10-08T09:35:25.741069+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
-    "entriesSeen": 99,
-    "entriesSelected": 58,
-    "entriesRejected": 41
+    "entriesSeen": 100,
+    "entriesSelected": 63,
+    "entriesRejected": 37,
+    "compatibilityWarnings": 2
   },
   "feeds": [
     {
@@ -49,7 +50,8 @@
       "baseUrl": "https://123av.com/en",
       "sourceCodeUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/javascript/anime/src/all/123av.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 829457287,
@@ -60,7 +62,8 @@
       "baseUrl": "https://anibd.app",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anibd.app.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 206730385,
@@ -71,7 +74,8 @@
       "baseUrl": "https://anikototv.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anikoto.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 529552861,
@@ -82,7 +86,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 159891252,
@@ -93,7 +98,8 @@
       "baseUrl": "https://torrentio.strem.fun",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/debridindex.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 4029425029,
@@ -104,7 +110,8 @@
       "baseUrl": "https://kisskh.ovh",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/kisskh.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 446414301,
@@ -115,7 +122,8 @@
       "baseUrl": "https://net2025.cc",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/netflixmirror.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 204272987,
@@ -126,7 +134,8 @@
       "baseUrl": "https://nyaa.si",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/nyaa/nyaa.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 105379426,
@@ -137,7 +146,8 @@
       "baseUrl": "https://subsplease.org",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/subsplease.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1066185420,
@@ -148,7 +158,8 @@
       "baseUrl": "https://torrentio.strem.fun",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/torrentio.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 715754009,
@@ -159,7 +170,8 @@
       "baseUrl": "https://torrentio.strem.fun",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/all/torrentioanime.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 147884422,
@@ -170,7 +182,8 @@
       "baseUrl": "https://vivamaxph.com/",
       "sourceCodeUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/javascript/anime/src/all/vivamaxph.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 816422873,
@@ -181,7 +194,8 @@
       "baseUrl": "https://www.okanime.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/ar/okanime/okanime.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 333564557,
@@ -192,7 +206,8 @@
       "baseUrl": "https://witanime.you",
       "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/witanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 953375665,
@@ -203,7 +218,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 922522471,
@@ -214,7 +230,8 @@
       "baseUrl": "https://animetoast.cc",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/de/animetoast/animetoast.dart",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 746621198,
@@ -225,7 +242,8 @@
       "baseUrl": "https://aniworld.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/de/aniworld.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 384756102,
@@ -236,7 +254,8 @@
       "baseUrl": "https://1anime.app",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/oneanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 558217176,
@@ -247,7 +266,8 @@
       "baseUrl": "https://allmanga.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/en/allanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": -228451656,
@@ -258,7 +278,8 @@
       "baseUrl": "https://all-wish.me",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/allwish.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 543219876,
@@ -269,7 +290,8 @@
       "baseUrl": "https://anidap.lol",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anidap.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1356478902,
@@ -280,7 +302,10 @@
       "baseUrl": "https://anikototv.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anikoto.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ]
     },
     {
       "id": 209614032,
@@ -291,7 +316,8 @@
       "baseUrl": "https://www.animegg.org",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animegg.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": -1744325818,
@@ -302,7 +328,8 @@
       "baseUrl": "https://animeheaven.me",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/animeheaven.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 419768715,
@@ -313,7 +340,8 @@
       "baseUrl": "https://animeparadise.moe",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/animeparadise.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 298117146,
@@ -324,7 +352,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1742685193,
@@ -335,7 +364,8 @@
       "baseUrl": "https://ani.pm",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anipm.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 67091011,
@@ -346,7 +376,8 @@
       "baseUrl": "https://aniwatchtv.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/aniwatchtv/aniwatchtv.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": -367725331,
@@ -357,7 +388,20 @@
       "baseUrl": "https://aniwaves.ru",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/aniwave.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 890070321,
+      "name": "CineJoy",
+      "lang": "en",
+      "version": "0.1.0",
+      "origin": "Curated addition",
+      "baseUrl": "https://cinejoy.pk",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/en/cinejoy.js",
+      "siteStatus": 206,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 473858216,
@@ -368,7 +412,8 @@
       "baseUrl": "https://donghuastream.org",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/donghuastream/donghuastream.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1183439094,
@@ -379,7 +424,8 @@
       "baseUrl": "https://hianime.at",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/hianime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 892345671,
@@ -390,7 +436,8 @@
       "baseUrl": "https://justanime.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/justanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 4096048097,
@@ -401,7 +448,8 @@
       "baseUrl": "https://kaa.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/kickassanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 614402273,
@@ -412,7 +460,8 @@
       "baseUrl": "https://kisskh.ovh",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/kisskh/kisskh.dart",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 617345892,
@@ -423,7 +472,8 @@
       "baseUrl": "https://www.miruro.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/miruro.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 347219856,
@@ -434,7 +484,8 @@
       "baseUrl": "https://myronix.strangled.net",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/myronix.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 631942785,
@@ -445,7 +496,8 @@
       "baseUrl": "https://reanime.cz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/reanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 728461935,
@@ -456,7 +508,8 @@
       "baseUrl": "https://senshi.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/senshi.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 372182741,
@@ -467,7 +520,8 @@
       "baseUrl": "https://ssflix.pro/home",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 2732508901,
@@ -478,7 +532,8 @@
       "baseUrl": "https://subsplease.org",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/subsplease.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1018721463,
@@ -489,7 +544,8 @@
       "baseUrl": "https://jkanime.net",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/jkanime.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 156757473,
@@ -500,18 +556,20 @@
       "baseUrl": "https://tioanime.com",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/tioanime.js",
       "siteStatus": 206,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 32228290,
       "name": "Anime-Sama",
       "lang": "fr",
-      "version": "0.0.52",
+      "version": "0.0.53",
       "origin": "m2k3a/mangayomi-extensions",
       "baseUrl": "https://anime-sama.to",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/animesama/animesama.dart",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/dart/anime/src/fr/animesama/animesama.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 1050779985,
@@ -522,7 +580,8 @@
       "baseUrl": "https://w2.animesultra.net",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/animesultra/animesultra.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 870016579,
@@ -533,7 +592,8 @@
       "baseUrl": "https://franime.fr",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/franime/franime.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 419375321,
@@ -544,7 +604,8 @@
       "baseUrl": "https://french-anime.com",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 788028349,
@@ -555,7 +616,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 537166091,
@@ -566,7 +628,8 @@
       "baseUrl": "https://yomovies.boo",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/hi/yomovies/yomovies.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 817602961,
@@ -577,7 +640,8 @@
       "baseUrl": "https://www.animesaturn.cx",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/it/animesaturn/animesaturn.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 368490446,
@@ -588,7 +652,8 @@
       "baseUrl": "https://www.animeworld.so",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/it/animeworld.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 486955727,
@@ -599,7 +664,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 571428165,
@@ -610,7 +676,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 976578551,
@@ -621,7 +688,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 182512102,
@@ -632,7 +700,8 @@
       "baseUrl": "https://animes.vision",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/pt/animesvision/animesvision.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 908421454,
@@ -643,7 +712,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 619885111,
@@ -654,7 +724,8 @@
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 750729164,
@@ -665,18 +736,70 @@
       "baseUrl": "https://360zy.com",
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/360zy.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 790593517,
+      "name": "华为吧资源",
+      "lang": "zh",
+      "version": "0.0.1",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://huaweiba.live",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/huaweiba.js",
+      "siteStatus": 206,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 593630482,
+      "name": "极速资源",
+      "lang": "zh",
+      "version": "0.0.2",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://www.jisuzy.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/jisuzy.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 781484038,
+      "name": "樱花动漫",
+      "lang": "zh",
+      "version": "0.0.2",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "http://www.iyinghua.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/yhdm.js",
+      "siteStatus": 206,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
+      ]
+    },
+    {
+      "id": 1032743453,
+      "name": "蜜柑计划",
+      "lang": "zh",
+      "version": "0.0.3",
+      "origin": "m2k3a/mangayomi-extensions",
+      "baseUrl": "https://mikanani.me",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/mikan.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     },
     {
       "id": 797525486,
       "name": "非凡资源",
       "lang": "zh",
-      "version": "0.0.25",
+      "version": "0.0.26",
       "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "http://ffzy.tv",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/ffzy.js",
+      "baseUrl": "https://ffzy.tv",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/zh/ffzy.js",
       "siteStatus": 200,
-      "sourceStatus": 206
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
     }
   ],
   "rejected": [
@@ -690,6 +813,9 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/tympanicblock61/mangayomi-extensions/main/javascript/anime/src/all/kaa.js",
       "siteStatus": 200,
       "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ],
       "reason": "Defaults to a localhost:8080 Cloudflare proxy that is not available on iPhone"
     },
     {
@@ -702,6 +828,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/playbackdiag.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "Developer diagnostic entry, not a user-facing streaming source"
     },
     {
@@ -712,8 +839,9 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": 200,
+      "siteStatus": null,
       "sourceStatus": 404,
+      "compatibilityWarnings": [],
       "reason": "extension source file did not load"
     },
     {
@@ -724,8 +852,9 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": 200,
+      "siteStatus": null,
       "sourceStatus": 404,
+      "compatibilityWarnings": [],
       "reason": "extension source file did not load"
     },
     {
@@ -738,54 +867,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animeparadise.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "reason": "lower-priority duplicate"
-    },
-    {
-      "id": 790593517,
-      "name": "华为吧资源",
-      "lang": "zh",
-      "version": "0.0.1",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://huaweiba.live",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/huaweiba.js",
-      "siteStatus": 206,
-      "sourceStatus": 206,
-      "reason": "lower-priority duplicate"
-    },
-    {
-      "id": 593630482,
-      "name": "极速资源",
-      "lang": "zh",
-      "version": "0.0.2",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://www.jisuzy.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/jisuzy.js",
-      "siteStatus": 200,
-      "sourceStatus": 206,
-      "reason": "lower-priority duplicate"
-    },
-    {
-      "id": 781484038,
-      "name": "樱花动漫",
-      "lang": "zh",
-      "version": "0.0.2",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "http://www.iyinghua.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/yhdm.js",
-      "siteStatus": 206,
-      "sourceStatus": 206,
-      "reason": "lower-priority duplicate"
-    },
-    {
-      "id": 1032743453,
-      "name": "蜜柑计划",
-      "lang": "zh",
-      "version": "0.0.3",
-      "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://mikanani.me",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/mikan.js",
-      "siteStatus": 200,
-      "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "lower-priority duplicate"
     },
     {
@@ -798,6 +880,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/nineanimetv/nineanimetv.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -810,6 +893,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/anizone/anizone.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -822,6 +906,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/anime4up.js",
       "siteStatus": 403,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -834,6 +919,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animeflv.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -846,6 +932,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/es/animefenix.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -858,6 +945,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
       "siteStatus": 403,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -870,6 +958,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/animepahe/animepahe.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -882,6 +971,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animez.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -894,6 +984,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animetsu.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -906,6 +997,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/autoembed.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -918,6 +1010,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -930,6 +1023,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/sq/filma24/filma24.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -942,6 +1036,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/gogoanime/gogoanime.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -954,6 +1049,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -966,6 +1062,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/zorotheme/zorotheme.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -978,6 +1075,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/ta/moviesda.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -990,6 +1088,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1002,6 +1101,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/oploverz/oploverz.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1014,6 +1114,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/id/otakudesu/otakudesu.dart",
       "siteStatus": 403,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1026,6 +1127,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/fr/otakufr/otakufr.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1038,6 +1140,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/senshi.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1050,6 +1153,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/de/serienstream.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1062,6 +1166,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/sudatchi.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1074,6 +1179,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/uhdmovies/uhdmovies.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1086,6 +1192,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/en/vumeto/vumeto.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1098,6 +1205,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1110,6 +1218,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/src/tr/diziwatch/diziwatch.dart",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1122,6 +1231,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/yydsys.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1134,6 +1244,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/tiankongzy.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1146,6 +1257,9 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/mucpan.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
+      ],
       "reason": "website did not respond successfully"
     },
     {
@@ -1158,6 +1272,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/wogg.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     },
     {
@@ -1170,6 +1285,7 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/anime/src/zh/mihdr.js",
       "siteStatus": null,
       "sourceStatus": 206,
+      "compatibilityWarnings": [],
       "reason": "website did not respond successfully"
     }
   ]

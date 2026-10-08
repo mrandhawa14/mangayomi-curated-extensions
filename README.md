@@ -18,6 +18,7 @@ Each weekly build verifies that:
 - the extension source file responds and is not an HTML error page;
 - the source website responds, including a declared Cloudflare challenge;
 - inactive, malformed, manually excluded, and lower-priority duplicate entries are omitted.
+- known compatibility risks, including 0.8.9 bridge casts and loopback-only helpers, are listed in the health report.
 
 The weekly workflow tests a candidate selection and uploads its health report. It does not automatically replace the published index because streaming sites often block data-center IP addresses even when they work for app users. A refresh also fails safely if an upstream feed is unavailable or the candidate unexpectedly falls below 40 entries.
 
@@ -34,7 +35,7 @@ The index retains each extension's upstream `sourceCodeUrl`. This avoids republi
 
 Adult sources remain marked with the upstream `isNsfw` value so Mangayomi can handle them appropriately.
 
-The current selection overrides SFlix with the tested `ssflix.pro` provider fix, including catalogue and HLS playback compatibility with Mangayomi 0.8.9, while the upstream contribution is being reviewed. The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
+The current selection overrides SFlix, Anime-Sama, and FFZY with tested compatibility fixes while their upstream contributions are being reviewed. CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired protected-HLS app contribution. The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
 
 ## Upstream projects
 
