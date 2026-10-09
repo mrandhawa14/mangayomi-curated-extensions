@@ -26,7 +26,7 @@ The weekly workflow tests a candidate selection and uploads its health report. I
 
 These checks cannot prove that every search result or video host works. Mangayomi playback tests are still the final verification. See [`health_report.json`](health_report.json) for the latest result and the reason each omitted source was rejected.
 
-The index retains each extension's upstream `sourceCodeUrl`. This avoids republishing third-party code without permission and lets upstream maintainers remain the source of updates.
+Third-party entries retain their original `sourceCodeUrl`. The tested SFlix, MoviesFlix, CineJoy, Anime-Sama, and FFZY fixes are maintained in `mrandhawa14/mangayomi-extensions` and served from that repository.
 
 ## Customize the selection
 
@@ -37,15 +37,16 @@ The index retains each extension's upstream `sourceCodeUrl`. This avoids republi
 
 Adult sources remain marked with the upstream `isNsfw` value so Mangayomi can handle them appropriately.
 
-The current selection overrides SFlix, Anime-Sama, FFZY, AniWave, and AniKoto with tested compatibility fixes while their upstream contributions are being reviewed. MoviesFlix is included as an alternate SFlix source with separate site links and the same Movie and TV search and playback support. Anichi and AnimeKai are tested ports from the maintained Yuzono Aniyomi implementations and are being reviewed in [extension PR #14](https://github.com/Mallyd11/mangayomi-anime-extensions/pull/14). CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired [protected-HLS app contribution](https://github.com/kodjodevf/mangayomi/pull/1040). The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
+The current selection serves SFlix, MoviesFlix, CineJoy, Anime-Sama, and FFZY from the maintained `mrandhawa14/mangayomi-extensions` repository. It does not depend on pull requests to `m2k3a/mangayomi-extensions`. AniWave and AniKoto use separately tested compatibility fixes. Anichi and AnimeKai are tested ports from the maintained Yuzono Aniyomi implementations and are being reviewed in [extension PR #14](https://github.com/Mallyd11/mangayomi-anime-extensions/pull/14). CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired [protected-HLS app contribution](https://github.com/kodjodevf/mangayomi/pull/1040). The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
 
 ## Upstream projects
 
 - [9vsv6/mangayomi-ar-extensions](https://github.com/9vsv6/mangayomi-ar-extensions)
 - [gato404/kegareta-sauces](https://github.com/gato404/kegareta-sauces)
+- [mrandhawa14/mangayomi-extensions](https://github.com/mrandhawa14/mangayomi-extensions), maintained compatibility source
 - [m2k3a/mangayomi-extensions](https://github.com/m2k3a/mangayomi-extensions)
 - [Mallyd11/mangayomi-anime-extensions](https://github.com/Mallyd11/mangayomi-anime-extensions)
 - [Swakshan/mangayomi-swak-extensions](https://github.com/Swakshan/mangayomi-swak-extensions)
 - [tympanicblock61/mangayomi-extensions](https://github.com/tympanicblock61/mangayomi-extensions)
 
-All extension metadata and code remain attributable to their respective upstream projects. The builder and automation in this repository are released under the MIT License.
+Original extension metadata and code remain attributable to their respective upstream projects. Compatibility fixes maintained in `mrandhawa14/mangayomi-extensions` retain the original notices and license. The builder and automation in this repository are released under the MIT License.

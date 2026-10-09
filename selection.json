@@ -11,7 +11,7 @@
       "dateFormatLocale": "",
       "isNsfw": false,
       "hasCloudflare": false,
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/en/cinejoy.js",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/en/cinejoy.js",
       "apiUrl": "https://api.wing.st",
       "version": "0.1.0",
       "isManga": false,
@@ -33,9 +33,9 @@
       "dateFormatLocale": "",
       "isNsfw": false,
       "hasCloudflare": false,
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "apiUrl": "",
-      "version": "0.0.1",
+      "version": "0.0.11",
       "isManga": false,
       "itemType": 1,
       "isFullData": false,
@@ -123,7 +123,7 @@
       "name": "Anime-Sama",
       "lang": "fr",
       "set": {
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/dart/anime/src/fr/animesama/animesama.dart",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/fr/animesama/animesama.dart",
         "version": "0.0.53",
         "notes": "Avoid the Mangayomi 0.8.9 Uri.replace bridge cast failure"
       }
@@ -134,7 +134,7 @@
       "set": {
         "baseUrl": "https://ffzy.tv",
         "iconUrl": "https://ffzy.tv/template/default/img/favicon.png",
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/7dc13effce8548fd5ae0b45bd497388e5d83372b/javascript/anime/src/zh/ffzy.js",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/ffzy.js",
         "version": "0.0.26",
         "notes": "Use HTTPS endpoints so playback requests are not blocked by platform network security"
       }
@@ -144,12 +144,17 @@
       "lang": "en",
       "set": {
         "baseUrl": "https://ssflix.pro",
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
         "version": "0.0.11",
-        "hasCloudflare": true,
-        "notes": "Use ssflix.pro with Movie and TV search plus Mangayomi 0.8.9 URI and playback compatibility"
+        "hasCloudflare": false,
+        "notes": "Use ssflix.pro with Movie and TV search plus Mangayomi 0.8.9 URI and playback compatibility. Automated hosting checks may receive HTTP 403 even when in-app playback works."
       }
     }
   ],
-  "allowUnreachable": []
+  "allowUnreachable": [
+    {
+      "name": "SFlix",
+      "lang": "en"
+    }
+  ]
 }
