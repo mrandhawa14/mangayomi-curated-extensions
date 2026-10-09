@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-08T18:16:46.143416+00:00",
+  "checkedAt": "2026-10-09T03:39:04.267225+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
-    "entriesSeen": 102,
-    "entriesSelected": 65,
-    "entriesRejected": 37,
+    "entriesSeen": 105,
+    "entriesSelected": 66,
+    "entriesRejected": 39,
     "compatibilityWarnings": 4
   },
   "feeds": [
@@ -27,7 +27,7 @@
     {
       "name": "Mallyd11/mangayomi-anime-extensions",
       "ok": true,
-      "entries": 15
+      "entries": 17
     },
     {
       "name": "Swakshan/mangayomi-swak-extensions",
@@ -492,6 +492,18 @@
       "compatibilityWarnings": []
     },
     {
+      "id": 829872193,
+      "name": "MoviesFlix",
+      "lang": "en",
+      "version": "0.0.1",
+      "origin": "Curated addition",
+      "baseUrl": "https://moviesflix.uk",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
       "id": 347219856,
       "name": "MyroniX",
       "lang": "en",
@@ -531,10 +543,10 @@
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.10",
+      "version": "0.0.11",
       "origin": "m2k3a/mangayomi-extensions",
-      "baseUrl": "https://ssflix.pro/home",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "baseUrl": "https://ssflix.pro",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 206,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -886,6 +898,36 @@
       "reason": "extension source file did not load"
     },
     {
+      "id": 878498226,
+      "name": "Anichi",
+      "lang": "en",
+      "version": "0.1.0",
+      "origin": "Mallyd11/mangayomi-anime-extensions",
+      "baseUrl": "https://anichi.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anikoto.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ],
+      "reason": "lower-priority duplicate"
+    },
+    {
+      "id": 232158530,
+      "name": "AnimeKai",
+      "lang": "en",
+      "version": "0.1.0",
+      "origin": "Mallyd11/mangayomi-anime-extensions",
+      "baseUrl": "https://animekaitv.to",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anikoto.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "References a loopback HTTP service; mobile users need that service on the same device"
+      ],
+      "reason": "lower-priority duplicate"
+    },
+    {
       "id": 419768715,
       "name": "AnimeParadise",
       "lang": "en",
@@ -1109,6 +1151,19 @@
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
     {
+      "id": 4254616130,
+      "name": "Senshi",
+      "lang": "all",
+      "version": "1.0.1",
+      "origin": "Swakshan/mangayomi-swak-extensions",
+      "baseUrl": "https://senshi.live",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/senshi.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+    },
+    {
       "id": 14810567,
       "name": "玩偶哥哥",
       "lang": "zh",
@@ -1120,19 +1175,6 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [],
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
-    },
-    {
-      "id": 4254616130,
-      "name": "Senshi",
-      "lang": "all",
-      "version": "1.0.1",
-      "origin": "Swakshan/mangayomi-swak-extensions",
-      "baseUrl": "https://senshi.live",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/senshi.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>"
     },
     {
       "id": 750391210,

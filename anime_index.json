@@ -808,6 +808,28 @@
     "notes": ""
   },
   {
+    "name": "MoviesFlix",
+    "id": 829872193,
+    "baseUrl": "https://moviesflix.uk",
+    "lang": "en",
+    "typeSource": "dopeflix",
+    "iconUrl": "https://moviesflix.uk/icon/favicon-32x32.png",
+    "dateFormat": "",
+    "dateFormatLocale": "",
+    "isNsfw": false,
+    "hasCloudflare": false,
+    "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+    "apiUrl": "",
+    "version": "0.0.1",
+    "isManga": false,
+    "itemType": 1,
+    "isFullData": false,
+    "appMinVerReq": "0.5.0",
+    "additionalParams": "",
+    "sourceCodeLanguage": 0,
+    "notes": "Alternate SFlix site with Movie and TV search plus current playback compatibility"
+  },
+  {
     "name": "MyroniX",
     "id": 347219856,
     "baseUrl": "https://myronix.strangled.net",
@@ -876,7 +898,7 @@
   {
     "name": "SFlix",
     "id": 372182741,
-    "baseUrl": "https://ssflix.pro/home",
+    "baseUrl": "https://ssflix.pro",
     "lang": "en",
     "typeSource": "dopeflix",
     "iconUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/src/sflix/icon.png",
@@ -884,16 +906,16 @@
     "dateFormatLocale": "",
     "isNsfw": false,
     "hasCloudflare": true,
-    "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
+    "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
     "apiUrl": "",
-    "version": "0.0.10",
+    "version": "0.0.11",
     "isManga": false,
     "itemType": 1,
     "isFullData": false,
     "appMinVerReq": "0.5.0",
     "additionalParams": "",
     "sourceCodeLanguage": 0,
-    "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI and playback compatibility"
+    "notes": "Use ssflix.pro with Movie and TV search plus Mangayomi 0.8.9 URI and playback compatibility"
   },
   {
     "name": "SubsPlease",

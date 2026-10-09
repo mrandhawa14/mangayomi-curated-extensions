@@ -23,6 +23,28 @@
       "notes": "Requires Mangayomi 0.9.9+ with the protected HLS proxy from app PR #1040"
     },
     {
+      "name": "MoviesFlix",
+      "id": 829872193,
+      "baseUrl": "https://moviesflix.uk",
+      "lang": "en",
+      "typeSource": "dopeflix",
+      "iconUrl": "https://moviesflix.uk/icon/favicon-32x32.png",
+      "dateFormat": "",
+      "dateFormatLocale": "",
+      "isNsfw": false,
+      "hasCloudflare": false,
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+      "apiUrl": "",
+      "version": "0.0.1",
+      "isManga": false,
+      "itemType": 1,
+      "isFullData": false,
+      "appMinVerReq": "0.5.0",
+      "additionalParams": "",
+      "sourceCodeLanguage": 0,
+      "notes": "Alternate SFlix site with Movie and TV search plus current playback compatibility"
+    },
+    {
       "name": "Anichi",
       "id": 878498226,
       "baseUrl": "https://anichi.to",
@@ -121,11 +143,11 @@
       "name": "SFlix",
       "lang": "en",
       "set": {
-        "baseUrl": "https://ssflix.pro/home",
-        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/c4026643f9a69d57d55f09603aa83d0e65631ab8/dart/anime/multisrc/dopeflix/dopeflix.dart",
-        "version": "0.0.10",
+        "baseUrl": "https://ssflix.pro",
+        "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/01e0d0875707c69eeaa25049fe0dcf7f48f48108/dart/anime/multisrc/dopeflix/dopeflix.dart",
+        "version": "0.0.11",
         "hasCloudflare": true,
-        "notes": "Use ssflix.pro provider APIs with Mangayomi 0.8.9 URI and playback compatibility"
+        "notes": "Use ssflix.pro with Movie and TV search plus Mangayomi 0.8.9 URI and playback compatibility"
       }
     }
   ],
