@@ -7,7 +7,7 @@ A checked and deduplicated anime extension index built from several community Ma
 Use this URL as an anime extension repository:
 
 ```text
-https://raw.githubusercontent.com//mrandhawa14/mangayomi-curated-extensions/main/anime_index.json
+https://raw.githubusercontent.com//mrandhawa14/mangayomi-curated-extensions/refs/heads/main/anime_index.json
 ```
 
 The intentional double slash returns the same index, but makes older Mangayomi releases use their neutral fallback icon instead of deriving the GitHub owner's profile picture. App [PR #1045](https://github.com/kodjodevf/mangayomi/pull/1045) removes owner avatars directly.
