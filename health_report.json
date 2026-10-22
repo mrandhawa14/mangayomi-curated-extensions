@@ -1,12 +1,12 @@
 {
-  "checkedAt": "2026-10-22T08:05:11.559938+00:00",
+  "checkedAt": "2026-10-22T17:51:13.570013+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
     "entriesSeen": 105,
-    "entriesSelected": 66,
-    "entriesRejected": 39,
-    "compatibilityWarnings": 4
+    "entriesSelected": 63,
+    "entriesRejected": 42,
+    "compatibilityWarnings": 3
   },
   "feeds": [
     {
@@ -495,7 +495,7 @@
       "id": 829872193,
       "name": "MoviesFlix",
       "lang": "en",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "origin": "Curated addition",
       "baseUrl": "https://moviesflix.uk",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -543,7 +543,7 @@
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://ssflix.pro",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -559,18 +559,6 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://subsplease.org",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/subsplease.js",
-      "siteStatus": 200,
-      "sourceStatus": 206,
-      "compatibilityWarnings": []
-    },
-    {
-      "id": 1018721463,
-      "name": "JKAnime",
-      "lang": "es",
-      "version": "0.1.13",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "https://jkanime.net",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/es/jkanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -655,18 +643,6 @@
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://anime-world.in",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
-      "siteStatus": 200,
-      "sourceStatus": 206,
-      "compatibilityWarnings": []
-    },
-    {
-      "id": 537166091,
-      "name": "YoMovies",
-      "lang": "hi",
-      "version": "0.0.3",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "https://yomovies.boo",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/hi/yomovies/yomovies.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
@@ -804,20 +780,6 @@
       "compatibilityWarnings": []
     },
     {
-      "id": 781484038,
-      "name": "樱花动漫",
-      "lang": "zh",
-      "version": "0.0.2",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "http://www.iyinghua.com",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/yhdm.js",
-      "siteStatus": 206,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [
-        "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
-      ]
-    },
-    {
       "id": 1032743453,
       "name": "蜜柑计划",
       "lang": "zh",
@@ -879,7 +841,7 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": null,
+      "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
       "reason": "extension source file did not load"
@@ -892,7 +854,7 @@
       "origin": "Swakshan/mangayomi-swak-extensions",
       "baseUrl": "https://www.animeonsen.xyz",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/animeonsen.js",
-      "siteStatus": null,
+      "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
       "reason": "extension source file did not load"
@@ -927,7 +889,7 @@
       "id": 829872193,
       "name": "MoviesFlix",
       "lang": "en",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://moviesflix.uk",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -1005,7 +967,7 @@
       "id": 640189912,
       "name": "DopeBox",
       "lang": "en",
-      "version": "0.0.12",
+      "version": "0.0.13",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://dopebox.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -1212,6 +1174,34 @@
       "reason": "website unavailable: <urlopen error timed out>"
     },
     {
+      "id": 781484038,
+      "name": "樱花动漫",
+      "lang": "zh",
+      "version": "0.0.2",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "http://www.iyinghua.com",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/yhdm.js",
+      "siteStatus": null,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [
+        "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
+      ],
+      "reason": "website unavailable: <urlopen error timed out>"
+    },
+    {
+      "id": 537166091,
+      "name": "YoMovies",
+      "lang": "hi",
+      "version": "0.0.3",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "https://yomovies.boo",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/hi/yomovies/yomovies.dart",
+      "siteStatus": 401,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: HTTP 401"
+    },
+    {
       "id": 333564558,
       "name": "Anime4Up",
       "lang": "ar",
@@ -1232,6 +1222,19 @@
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://ww3.animeonline.ninja",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "reason": "website unavailable: HTTP 403"
+    },
+    {
+      "id": 1018721463,
+      "name": "JKAnime",
+      "lang": "es",
+      "version": "0.1.13",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "https://jkanime.net",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/es/jkanime.js",
       "siteStatus": 403,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
