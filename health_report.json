@@ -1,11 +1,11 @@
 {
-  "checkedAt": "2026-10-22T17:51:51.247925+00:00",
+  "checkedAt": "2026-10-22T18:06:57.979776+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
     "entriesSeen": 105,
-    "entriesSelected": 64,
-    "entriesRejected": 41,
+    "entriesSelected": 65,
+    "entriesRejected": 40,
     "compatibilityWarnings": 4
   },
   "feeds": [
@@ -110,6 +110,18 @@
       "baseUrl": "https://kisskh.ovh",
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/kisskh.js",
       "siteStatus": 206,
+      "sourceStatus": 206,
+      "compatibilityWarnings": []
+    },
+    {
+      "id": 446414301,
+      "name": "NetMirror",
+      "lang": "all",
+      "version": "1.0.5",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "https://net2025.cc",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/netflixmirror.js",
+      "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": []
     },
@@ -483,7 +495,7 @@
       "id": 829872193,
       "name": "MoviesFlix",
       "lang": "en",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "origin": "Curated addition",
       "baseUrl": "https://moviesflix.uk",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -531,7 +543,7 @@
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://ssflix.pro",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -903,7 +915,7 @@
       "id": 829872193,
       "name": "MoviesFlix",
       "lang": "en",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://moviesflix.uk",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -981,7 +993,7 @@
       "id": 640189912,
       "name": "DopeBox",
       "lang": "en",
-      "version": "0.0.13",
+      "version": "0.0.14",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://dopebox.to",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
@@ -1147,19 +1159,6 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [],
       "reason": "website unavailable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>"
-    },
-    {
-      "id": 446414301,
-      "name": "NetMirror",
-      "lang": "all",
-      "version": "1.0.5",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "https://net2025.cc",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/netflixmirror.js",
-      "siteStatus": null,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: <urlopen error _ssl.c:983: The handshake operation timed out>"
     },
     {
       "id": 750391210,
