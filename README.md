@@ -37,7 +37,7 @@ Third-party entries retain their original `sourceCodeUrl`. The tested SFlix, Mov
 
 Adult sources remain marked with the upstream `isNsfw` value so Mangayomi can handle them appropriately.
 
-The current selection serves SFlix, MoviesFlix, CineJoy, Anime-Sama, and FFZY from the maintained `mrandhawa14/mangayomi-extensions` repository. It does not depend on pull requests to `m2k3a/mangayomi-extensions`. AniWave and AniKoto use separately tested compatibility fixes. Anichi and AnimeKai are tested ports from the maintained Yuzono Aniyomi implementations and are being reviewed in [extension PR #14](https://github.com/Mallyd11/mangayomi-anime-extensions/pull/14). CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired [protected-HLS app contribution](https://github.com/kodjodevf/mangayomi/pull/1040). The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
+The current selection serves SFlix, MoviesFlix, CineJoy, Anime-Sama, and FFZY from the maintained `mrandhawa14/mangayomi-extensions` repository. It does not depend on pull requests to `m2k3a/mangayomi-extensions`. AniWave and AniKoto use separately tested compatibility fixes. Anichi and AnimeKai are ports of the maintained Yuzono Aniyomi implementations, now served directly from `Mallyd11/mangayomi-anime-extensions`. CineJoy requires Mangayomi 0.9.9 or newer and depends on the paired [protected-HLS app contribution](https://github.com/kodjodevf/mangayomi/pull/1040). The `all` language KickAssAnime entry is excluded because it enables an unavailable `localhost:8080` proxy by default; the separate direct `en` entry remains available.
 
 ## Upstream projects
 
