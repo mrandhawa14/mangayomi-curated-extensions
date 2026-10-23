@@ -87,6 +87,33 @@ class BuildIndexTests(unittest.TestCase):
         self.assertEqual(result.status, 200)
         self.assertIn("stopped", result.detail)
 
+    def check_site_with(self, status, body, has_cloudflare=False):
+        original_fetch_bytes = build_index.fetch_bytes
+        build_index.fetch_bytes = lambda *_args, **_kwargs: (status, body)
+        try:
+            return build_index.check_site("https://example.com", 1, has_cloudflare)
+        finally:
+            build_index.fetch_bytes = original_fetch_bytes
+
+    def test_undeclared_cloudflare_challenge_is_kept_and_flagged(self):
+        result = self.check_site_with(
+            403,
+            b"<!DOCTYPE html><html><head><title>Just a moment...</title>"
+            b'<script src="/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1"></script>',
+        )
+        self.assertTrue(result.ok)
+        self.assertTrue(result.challenge)
+
+    def test_plain_forbidden_site_is_still_rejected(self):
+        result = self.check_site_with(403, b"<html><body>Forbidden</body></html>")
+        self.assertFalse(result.ok)
+        self.assertFalse(result.challenge)
+
+    def test_healthy_site_is_not_flagged(self):
+        result = self.check_site_with(200, b"<html><body>Welcome</body></html>")
+        self.assertTrue(result.ok)
+        self.assertFalse(result.challenge)
+
 
 if __name__ == "__main__":
     unittest.main()

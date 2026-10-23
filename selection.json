@@ -35,7 +35,7 @@
       "hasCloudflare": false,
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "apiUrl": "",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "isManga": false,
       "itemType": 1,
       "isFullData": false,
@@ -101,7 +101,7 @@
       "set": {
         "baseUrl": "https://ssflix.pro",
         "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
-        "version": "0.0.14",
+        "version": "0.0.15",
         "hasCloudflare": false,
         "notes": "Use ssflix.pro with Movie and TV search plus Mangayomi 0.8.9 URI and playback compatibility. Automated hosting checks may receive HTTP 403 even when in-app playback works."
       }

@@ -19,6 +19,11 @@ from urllib.request import Request, urlopen
 
 USER_AGENT = "MangayomiCuratedIndex/1.0 (+https://github.com/mrandhawa14/mangayomi-curated-extensions)"
 REQUIRED_FIELDS = ("id", "name", "baseUrl", "lang", "version", "sourceCodeUrl")
+CHALLENGE_MARKERS = (
+    "<title>just a moment...</title>",
+    "/cdn-cgi/challenge-platform/",
+    "cf-browser-verification",
+)
 STOPPED_SITE_MARKERS = (
     "website has been stopped",
     "site has been stopped by the administrator",
@@ -31,6 +36,7 @@ class CheckResult:
     status: int | None
     detail: str
     compatibility_warnings: tuple[str, ...] = ()
+    challenge: bool = False
 
 
 def fetch_bytes(url: str, timeout: float, limit: int = 1_000_000) -> tuple[int, bytes]:
@@ -98,8 +104,12 @@ def check_site(url: str, timeout: float, has_cloudflare: bool) -> CheckResult:
         return CheckResult(False, status, "site reports that it has been stopped")
     if 200 <= status < 400:
         return CheckResult(True, status, "site responded")
-    if status == 403 and has_cloudflare:
-        return CheckResult(True, status, "Cloudflare challenge detected")
+    # A bot check blocks this script, but the app can often pass it, so keep
+    # the source and flag it for an in-app check instead of dropping it.
+    if status in (403, 429, 503) and (
+        has_cloudflare or any(marker in text for marker in CHALLENGE_MARKERS)
+    ):
+        return CheckResult(True, status, "Cloudflare challenge detected", challenge=True)
     return CheckResult(False, status, f"HTTP {status}")
 
 
@@ -241,6 +251,7 @@ def build(
             "compatibilityWarnings": list(source_check.compatibility_warnings)
             if source_check
             else [],
+            "needsInAppCheck": bool(site_check and site_check.challenge),
         }
         if str(entry.get("baseUrl", "")).startswith("http://"):
             audit["compatibilityWarnings"].append(
@@ -307,6 +318,7 @@ def build(
             "compatibilityWarnings": sum(
                 len(item["compatibilityWarnings"]) for item in selected_audits
             ),
+            "needsInAppCheck": sum(1 for item in selected_audits if item["needsInAppCheck"]),
         },
         "feeds": feeds,
         "selected": selected_audits,

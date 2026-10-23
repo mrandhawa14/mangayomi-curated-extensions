@@ -18,7 +18,8 @@ Each weekly build verifies that:
 
 - the upstream index is valid JSON;
 - the extension source file responds and is not an HTML error page;
-- the source website responds and is not a known shutdown placeholder, including a declared Cloudflare challenge;
+- the source website responds and is not a known shutdown placeholder;
+- a website that answers with a Cloudflare bot check stays in the index and is marked `needsInAppCheck` in the health report, because the app can often pass a check that blocks this script;
 - inactive, malformed, manually excluded, and lower-priority duplicate entries are omitted.
 - known compatibility risks, including 0.8.9 bridge casts and loopback-only helpers, are listed in the health report.
 

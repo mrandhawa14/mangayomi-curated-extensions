@@ -1,12 +1,13 @@
 {
-  "checkedAt": "2026-10-22T18:06:57.979776+00:00",
+  "checkedAt": "2026-10-23T05:53:34.228732+00:00",
   "summary": {
     "feedsConfigured": 6,
     "feedsLoaded": 6,
     "entriesSeen": 105,
-    "entriesSelected": 65,
-    "entriesRejected": 40,
-    "compatibilityWarnings": 4
+    "entriesSelected": 68,
+    "entriesRejected": 37,
+    "compatibilityWarnings": 4,
+    "needsInAppCheck": 2
   },
   "feeds": [
     {
@@ -51,7 +52,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/javascript/anime/src/all/123av.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 829457287,
@@ -63,7 +65,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anibd.app.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 206730385,
@@ -75,7 +78,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/anikoto.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 529552861,
@@ -87,7 +91,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 159891252,
@@ -99,7 +104,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/debridindex.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 4029425029,
@@ -111,7 +117,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/all/kisskh.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 446414301,
@@ -123,7 +130,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/netflixmirror.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 204272987,
@@ -135,7 +143,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/nyaa/nyaa.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 105379426,
@@ -147,7 +156,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/subsplease.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1066185420,
@@ -159,7 +169,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/torrentio.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 715754009,
@@ -171,7 +182,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/all/torrentioanime.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 147884422,
@@ -183,7 +195,21 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/gato404/kegareta-sauces/main/javascript/anime/src/all/vivamaxph.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
+    },
+    {
+      "id": 333564558,
+      "name": "Anime4Up",
+      "lang": "ar",
+      "version": "0.0.6",
+      "origin": "9vsv6/mangayomi-ar-extensions",
+      "baseUrl": "https://w1.anime4up.rest",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/anime4up.js",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "needsInAppCheck": true
     },
     {
       "id": 816422873,
@@ -195,7 +221,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/ar/okanime/okanime.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 333564557,
@@ -207,7 +234,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/witanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 953375665,
@@ -219,7 +247,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 922522471,
@@ -231,7 +260,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/de/animetoast/animetoast.dart",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 746621198,
@@ -243,7 +273,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/de/aniworld.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 384756102,
@@ -255,7 +286,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/oneanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 558217176,
@@ -267,7 +299,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/en/allanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": -228451656,
@@ -279,7 +312,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/allwish.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 878498226,
@@ -293,7 +327,8 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [
         "References a loopback HTTP service; mobile users need that service on the same device"
-      ]
+      ],
+      "needsInAppCheck": false
     },
     {
       "id": 543219876,
@@ -305,7 +340,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anidap.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1356478902,
@@ -319,7 +355,8 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [
         "References a loopback HTTP service; mobile users need that service on the same device"
-      ]
+      ],
+      "needsInAppCheck": false
     },
     {
       "id": 209614032,
@@ -331,7 +368,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/animegg.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": -1744325818,
@@ -343,7 +381,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/animeheaven.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 232158530,
@@ -357,7 +396,8 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [
         "References a loopback HTTP service; mobile users need that service on the same device"
-      ]
+      ],
+      "needsInAppCheck": false
     },
     {
       "id": 419768715,
@@ -369,7 +409,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/animeparadise.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 298117146,
@@ -381,7 +422,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1742685193,
@@ -393,7 +435,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/anipm.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": -367725331,
@@ -405,7 +448,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-anime-extensions/8dd98cb1f70b7b4f75759a51a3e1904fcaacd003/javascript/anime/src/en/aniwave.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 890070321,
@@ -417,7 +461,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/en/cinejoy.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 473858216,
@@ -429,7 +474,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/en/donghuastream/donghuastream.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1183439094,
@@ -441,7 +487,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/hianime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 892345671,
@@ -453,7 +500,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/justanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 4096048097,
@@ -465,7 +513,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/kickassanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 614402273,
@@ -477,7 +526,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/en/kisskh/kisskh.dart",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 617345892,
@@ -489,19 +539,21 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/miruro.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 829872193,
       "name": "MoviesFlix",
       "lang": "en",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "origin": "Curated addition",
       "baseUrl": "https://moviesflix.uk",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 347219856,
@@ -513,7 +565,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/myronix.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 631942785,
@@ -525,7 +578,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/reanime.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 728461935,
@@ -537,19 +591,21 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Mallyd11/mangayomi-anime-extensions/refs/heads/main/javascript/anime/src/en/senshi.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 372182741,
       "name": "SFlix",
       "lang": "en",
-      "version": "0.0.14",
+      "version": "0.0.15",
       "origin": "mrandhawa14/mangayomi-extensions",
       "baseUrl": "https://ssflix.pro",
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/dopeflix/dopeflix.dart",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 2732508901,
@@ -561,7 +617,34 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/Swakshan/mangayomi-swak-extensions/refs/heads/main/javascript/anime/src/en/subsplease.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
+    },
+    {
+      "id": 802700084,
+      "name": "AnimeOnline.Ninja",
+      "lang": "es",
+      "version": "0.0.35",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "https://ww3.animeonline.ninja",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
+      "siteStatus": 403,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "needsInAppCheck": true
+    },
+    {
+      "id": 1018721463,
+      "name": "JKAnime",
+      "lang": "es",
+      "version": "0.1.13",
+      "origin": "mrandhawa14/mangayomi-extensions",
+      "baseUrl": "https://jkanime.net",
+      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/es/jkanime.js",
+      "siteStatus": 200,
+      "sourceStatus": 206,
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 156757473,
@@ -573,7 +656,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/es/tioanime.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 32228290,
@@ -585,7 +669,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/fr/animesama/animesama.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1050779985,
@@ -597,7 +682,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/fr/animesultra/animesultra.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 870016579,
@@ -609,7 +695,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/fr/franime/franime.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 419375321,
@@ -621,7 +708,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 1054910447,
@@ -633,7 +721,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/multisrc/datalifeengine/datalifeengine.dart",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 788028349,
@@ -645,7 +734,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 537166091,
@@ -657,7 +747,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/hi/yomovies/yomovies.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 228390212,
@@ -669,7 +760,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/id/nimegami/nimegami.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 817602961,
@@ -681,7 +773,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/it/animesaturn/animesaturn.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 368490446,
@@ -693,7 +786,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/it/animeworld.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 486955727,
@@ -705,7 +799,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 571428165,
@@ -717,7 +812,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 976578551,
@@ -729,7 +825,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 908421454,
@@ -741,7 +838,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 619885111,
@@ -753,7 +851,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/all/animeworldindia/animeworldindia.dart",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 750729164,
@@ -765,7 +864,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/360zy.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 790593517,
@@ -777,7 +877,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/huaweiba.js",
       "siteStatus": 206,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 593630482,
@@ -789,7 +890,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/jisuzy.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 781484038,
@@ -803,7 +905,8 @@
       "sourceStatus": 206,
       "compatibilityWarnings": [
         "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
-      ]
+      ],
+      "needsInAppCheck": false
     },
     {
       "id": 1032743453,
@@ -815,7 +918,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/mikan.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     },
     {
       "id": 797525486,
@@ -827,7 +931,8 @@
       "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/zh/ffzy.js",
       "siteStatus": 200,
       "sourceStatus": 206,
-      "compatibilityWarnings": []
+      "compatibilityWarnings": [],
+      "needsInAppCheck": false
     }
   ],
   "rejected": [
@@ -844,6 +949,7 @@
       "compatibilityWarnings": [
         "References a loopback HTTP service; mobile users need that service on the same device"
       ],
+      "needsInAppCheck": false,
       "reason": "Defaults to a localhost:8080 Cloudflare proxy that is not available on iPhone"
     },
     {
@@ -857,6 +963,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "Developer diagnostic entry, not a user-facing streaming source"
     },
     {
@@ -870,6 +977,7 @@
       "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "extension source file did not load"
     },
     {
@@ -883,6 +991,7 @@
       "siteStatus": 200,
       "sourceStatus": 404,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "extension source file did not load"
     },
     {
@@ -896,6 +1005,7 @@
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "lower-priority duplicate"
     },
     {
@@ -909,6 +1019,7 @@
       "siteStatus": 206,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "lower-priority duplicate"
     },
     {
@@ -922,6 +1033,7 @@
       "siteStatus": 200,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "lower-priority duplicate"
     },
     {
@@ -935,6 +1047,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 61] Connection refused>"
     },
     {
@@ -948,6 +1061,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -961,6 +1075,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -974,6 +1089,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -987,6 +1103,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1000,6 +1117,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1013,6 +1131,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1026,6 +1145,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1039,6 +1159,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1052,6 +1173,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1065,6 +1187,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1080,6 +1203,7 @@
       "compatibilityWarnings": [
         "Uses an unencrypted HTTP base URL, which may be blocked by platform network security"
       ],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1093,6 +1217,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [Errno 8] nodename nor servname provided, or not known>"
     },
     {
@@ -1106,6 +1231,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
     {
@@ -1119,6 +1245,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
     {
@@ -1132,6 +1259,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
     {
@@ -1145,6 +1273,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
     },
     {
@@ -1158,6 +1287,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1000)>"
     },
     {
@@ -1171,6 +1301,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error timed out>"
     },
     {
@@ -1184,6 +1315,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error timed out>"
     },
     {
@@ -1197,46 +1329,8 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: <urlopen error timed out>"
-    },
-    {
-      "id": 333564558,
-      "name": "Anime4Up",
-      "lang": "ar",
-      "version": "0.0.6",
-      "origin": "9vsv6/mangayomi-ar-extensions",
-      "baseUrl": "https://w1.anime4up.rest",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/9vsv6/mangayomi-ar-extensions/main/anime/anime4up.js",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: HTTP 403"
-    },
-    {
-      "id": 802700084,
-      "name": "AnimeOnline.Ninja",
-      "lang": "es",
-      "version": "0.0.35",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "https://ww3.animeonline.ninja",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/dart/anime/src/es/animeonlineninja/animeonlineninja.dart",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: HTTP 403"
-    },
-    {
-      "id": 1018721463,
-      "name": "JKAnime",
-      "lang": "es",
-      "version": "0.1.13",
-      "origin": "mrandhawa14/mangayomi-extensions",
-      "baseUrl": "https://jkanime.net",
-      "sourceCodeUrl": "https://raw.githubusercontent.com/mrandhawa14/mangayomi-extensions/main/javascript/anime/src/es/jkanime.js",
-      "siteStatus": 403,
-      "sourceStatus": 206,
-      "compatibilityWarnings": [],
-      "reason": "website unavailable: HTTP 403"
     },
     {
       "id": 857966631,
@@ -1249,6 +1343,7 @@
       "siteStatus": 403,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: HTTP 403"
     },
     {
@@ -1262,6 +1357,7 @@
       "siteStatus": 403,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: HTTP 403"
     },
     {
@@ -1275,6 +1371,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1288,6 +1385,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1301,6 +1399,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1314,6 +1413,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1327,6 +1427,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1340,6 +1441,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     },
     {
@@ -1353,6 +1455,7 @@
       "siteStatus": null,
       "sourceStatus": 206,
       "compatibilityWarnings": [],
+      "needsInAppCheck": false,
       "reason": "website unavailable: The read operation timed out"
     }
   ]
